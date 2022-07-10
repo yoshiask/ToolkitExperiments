@@ -154,6 +154,12 @@
       <Version>6.2.13</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ControlsLibrary\ControlsLibrary.vcxproj">
+      <Project>{2c1f49f9-da2f-4a99-86c0-d8c6acab9ae5}</Project>
+      <Name>ControlsLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
